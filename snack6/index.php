@@ -40,7 +40,7 @@
                 <?php
                     for($i = 0; $i < 2; $i = $i + 1 ){
                         echo $db['teachers'][$i]['name'];
-                        echo $db['teachers'][$i]['lastname'];
+                        echo $db['teachers'][$i]['lastname'] . '<br>';
                     }
                     var_dump($db['teachers']);
                 ?>
@@ -51,7 +51,7 @@
                 <?php
                     for($i = 0; $i < 2; $i = $i + 1 ){
                         echo $db['pm'][$i]['name'];
-                        echo $db['pm'][$i]['lastname'];
+                        echo $db['pm'][$i]['lastname'] . '<br>';
                     }
                     var_dump($db['pm']);
                 ?>
