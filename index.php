@@ -29,8 +29,6 @@ $arrayA = [
         'puntiFattiOspite' => $randNumb6,
     ],
 ];
-
-var_dump($arrayA);
 ?>
 
 <!DOCTYPE html>
