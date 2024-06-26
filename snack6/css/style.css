@@ -1,0 +1,15 @@
+.square-gray{
+    background-color: rgb(200, 198, 198);
+    width: 750px;
+    height: 375px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.square-green{
+    background-color: rgb(74, 210, 74);
+    width: 750px;
+    height: 375px;
+    margin: 0 auto;
+}
+
