@@ -27,3 +27,29 @@ $arrayA = [
 
 var_dump($arrayA);
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario partite!</title>
+</head>
+<body>
+    <main>
+        <h1>
+            Calendario:
+        </h1>
+        <h2>
+            <?php
+                echo($arrayA[0]['squadraCasa']);
+            ?>
+            -
+            <?php
+                echo($arrayA[0]['squadraOspite']);
+            ?>
+
+        </h2>
+    </main>
+</body>
+</html>
