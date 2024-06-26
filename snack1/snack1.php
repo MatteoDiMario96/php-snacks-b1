@@ -100,6 +100,9 @@ $arrayA = [
                 ?>
             </h2>
         </article>
+
+        <?php
+        ?>
     </main>
 </body>
 </html>
