@@ -14,18 +14,18 @@
         <?php foreach ($alunni as $key => $alunno) { ?>
                 <li>
                     <h2>
-                        <?php $alunno['nome']?>;
+                        <?php echo $alunno['nome']?>;
                     </h2>
                     <h3>
-                    <?php $alunno['cognome']?>;
+                    <?php echo $alunno['cognome']?>;
                     </h3>
                     <h3>
-                        I tuoi votii sono : 
+                        La media dei tuoi voti è  : 
                     </h3>
                     <h1>
-                        <?php foreach ($alunno as $key => $voto) {
-                            $voto;
-                        } ?>
+                        <?php
+                            echo array_sum($alunno['votes'], count());
+                        ?>
                     </h1>
                 </li>
         <?php } ?>
