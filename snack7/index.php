@@ -24,7 +24,7 @@
                     </h3>
                     <h1>
                         <?php
-                            echo array_sum($alunno['votes'], count());
+                            echo array_sum($alunno['voti']) / count($alunno['voti']);
                         ?>
                     </h1>
                 </li>

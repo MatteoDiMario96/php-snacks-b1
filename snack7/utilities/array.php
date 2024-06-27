@@ -17,21 +17,21 @@ Stampare Nome, Cognome e la media dei voti di ogni alunno. -->
             'nome' => 'Sara',
             'cognome' => 'Lengu',
             'voti' => [
-                8, 6, 7, 8, 10
+                8, 9, 9, 8, 10
             ]
         ],
         [
             'nome' => 'Alessandro',
             'cognome' => 'Capece',
             'voti' => [
-                8, 6, 7, 8, 10
+                3, 6, 7, 2, 6
             ]
         ],
         [
             'nome' => 'Riccardo',
             'cognome' => 'Di Mario',
             'voti' => [
-                8, 6, 7, 8, 10
+                5, 6, 7, 7, 6
             ]
         ],
     ]
