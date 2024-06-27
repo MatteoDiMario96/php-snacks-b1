@@ -53,10 +53,22 @@ $animals = [
     ],
 ];
 
-$mammiferiArray = array_filter($animals, $animals['classe'] = 'Mammifero');
+$mammiferiArray = [];
+$pesciArray = [];
+$rettiliArray = [];
+$otherArray = [];
 
-$pesciArray = array_filter($animals, $animals['classe'] = 'Pesce'); 
+foreach ($animals as $key => $animal) {
+    if($animal['classe'] === 'Mammifero'){
+        $mammiferiArray[] = $animal;
+    }elseif($animal['classe'] === 'Pesce'){
+        $pesciArray[] = $animal;
+    }elseif($animal['classe'] === 'Rettile'){
+        $rettiliArray[] = $animal;
+    }else{
+        $otherArray[] = $animal;
+    }
+};
 
-$rettiliArray = array_filter($animals, $animals['classe'] = 'Rettile'); 
 
 
